@@ -19,6 +19,8 @@ public final class hello
         System.out.println(s1);
         Object obj = new Object();
         System.out.println(obj);
+
+        System.out.println("arguments count: " + args.length);
     }
 
     static int f(int x)
