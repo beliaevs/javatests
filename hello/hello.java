@@ -21,6 +21,9 @@ public final class hello
         System.out.println(obj);
 
         System.out.println("arguments count: " + args.length);
+
+        n = 100;
+        int[] nums = new int[n];
     }
 
     static int f(int x)
