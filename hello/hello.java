@@ -5,6 +5,7 @@ import java.util.List;
 
 public final class hello
 {
+    static int Uninitialized;
     public static void main(String[] args)
     {
         System.out.println("Hello!");
@@ -24,6 +25,7 @@ public final class hello
 
         n = 100;
         int[] nums = new int[n];
+        System.out.println("Uninitialized=" + Uninitialized);
     }
 
     static int f(int x)
